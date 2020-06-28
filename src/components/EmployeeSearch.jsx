@@ -18,7 +18,6 @@ const EmployeeSearch = () => {
 
       <section className="filterBar">
         <input
-          // Allow user to enter part employee name and update in real time
           type="text"
           placeholder="Filter by Name..."
           value={searching}

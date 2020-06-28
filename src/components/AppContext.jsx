@@ -5,15 +5,10 @@ import React, { useState, createContext, useEffect } from "react";
 export const AppContext = createContext();
 
 export const AppProvider = (props) => {
-  // Initially data called from API
   const [employees, setEmployees] = useState({});
-  // State check to see if it's done being called
   const [fetching, setFetching] = useState(false);
-  // Set search data
   const [searching, setSearching] = useState("");
-  // Set alphabetical sort data
   const [sorting, setSorting] = useState("alpha");
-  // Set image src img
   const [sortImg, setSortImg] = useState("/img/arrow-up.svg");
 
   // Use the 'randomuser.me' API to generate list of randomised data for list
