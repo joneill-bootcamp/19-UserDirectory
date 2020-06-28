@@ -4,7 +4,7 @@
 
 Display list of employees sourced from RandomUser API
 
-> "https://randomuser.me/api/?results=200&nat=us"
+> "https://randomuser.me/api/?results=200&nat=au"
 
 # Repo Link
 

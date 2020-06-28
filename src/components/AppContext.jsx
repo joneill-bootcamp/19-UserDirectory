@@ -14,7 +14,7 @@ export const AppProvider = (props) => {
   // Use the 'randomuser.me' API to generate list of randomised data for list
   // as JSON and pass to the state
   const fetchEmployeeData = async () => {
-    let response = await fetch("https://randomuser.me/api/?results=200&nat=us");
+    let response = await fetch("https://randomuser.me/api/?results=200&nat=au");
     let data = await response.json();
     setEmployees(data.results);
     setFetching(fetching === false ? true : false);
