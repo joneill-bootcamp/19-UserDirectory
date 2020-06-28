@@ -1,3 +1,5 @@
+// Establish App Context
+
 import React, { useState, createContext, useEffect } from "react";
 
 export const AppContext = createContext();
