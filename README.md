@@ -4,6 +4,8 @@
 
 Display list of employees sourced from RandomUser API
 
+<img width="579" alt="image" src="https://user-images.githubusercontent.com/59762660/85945178-59650800-b97f-11ea-8e58-2b4c397e7e18.png">
+
 > "https://randomuser.me/api/?results=200&nat=au"
 
 # Repo Link
